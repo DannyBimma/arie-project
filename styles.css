@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #f5f5f5;
+  background-color: #5c5959;
+  /* height: 100vh; */
+  padding: 2rem;
+  line-height: 1.5;
+}
+
+button {
+  margin-top: 6px;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: #5c5959;
+  background-color: #f5f5f5;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+button:hover {
+  color: #f5f5f5;
+  background-color: #5c5959;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav_link {
+  color: #f5f5f5;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.nav_link:hover {
+  font-weight: bolder;
+}
+
+.nav_link:active {
+  color: #5c5959;
+}
+
+.title_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0px 10px 0px;
+}
+
+.slideshow_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.section_one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.section_one_heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+
+.button_book_now {
+  align-self: flex-start;
+}
+
+.section_two_heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 10px 0px;
+}
+
+.section_two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 80px;
+}
+
+.section_three_heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+
+.section_three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_four {
+  margin-top: 44px;
+  font-size: small;
+}
+
+.input_email {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
