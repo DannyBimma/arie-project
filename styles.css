@@ -6,9 +6,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #ff6464;
   /* background-color: #5c5959; */
-  background-color: #f2789f;
+  /* background-color: #f2789f; */
+  background-color: #ffe162;
   /* height: 100vh; */
   padding: 2rem;
   line-height: 1.5;
@@ -42,7 +44,7 @@ button:hover {
 }
 
 .nav_link {
-  color: #f5f5f5;
+  color: #ff6464;
   text-decoration: none;
   margin: 5px;
 }
